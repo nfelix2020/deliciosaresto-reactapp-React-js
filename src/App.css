@@ -1,38 +1,144 @@
-.App {
-  text-align: center;
+nav ul{
+
+  font-size: 1.3em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+p{
+    font-size: 18px;
+    color:#262626;
+}
+.section{
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.main-heading{
+    color: #000000 !important;
+    font-size: 60px;
+}
+.main-heading-contact{
+    color: #000000 !important;
+    font-size: 60px;
+}
+
+
+.underline{
+    height: 0px;
+    width: 4rem;
+    background-color: #f76c2f;
+    margin-bottom: 10px;
+}
+
+.btn-primary{
+    font-weight: 800;
+}
+
+.bg-c-light{
+    background-color: #f2f2f2;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+}
+
+.footer a:hover{
+    color: gray;
+}
+
+.contact{
+    font-style: italic;
+}
+
+.d-block{
+    height: 50px;
+}
+
+.main-heading, .paragraph{
+    margin-top: 220px;
+    text-align: justify;
+}
+.main-heading-contact, .paragraph{
+    text-align: justify;
+}
+
+/*ON MOBILE*/
+
+@media only screen and (max-width: 600px){
+
+    .main-heading, .paragraph{
+        margin-top: 40px;
+    }
+    .paragraph{
+        text-align: justify;
+    }
+
+    /* img{
+        margin: 0px;
+        width: 100vh;
+        padding-left: 0px !important;
+    
+    } */
+    #im1{
+        width:150%;
+        margin:0px
+    }
+
+}
+
+.leftside{
+    background-color:rgb(217, 229, 219);
+}
+
+.rightside{
+    background-color: rgb(255, 222, 159);
+}
+
+
+
+.btn{
+    background-color: black;
+}
+
+
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
-  to {
-    transform: rotate(360deg);
+
+  .reserver{
+      margin-top: -900px;
+      position: absolute;
+      border: 1px solid white;
+      height:40px;
+      margin-left: 30px;
+      font-weight: 700;
+      font-size: 1.3em;
   }
-}
+
+ 
+  .carousel{
+      position:relative;
+  }
+
+  /* MENUS CSS */
+
+  .details-menus{
+      font-size: .9em;
+      color:gray;
+  }
+
+  .prix{
+      margin-left: 200px;
+  }
